@@ -1,7 +1,7 @@
 package org.example.utils;
 
 public class ConfigUtils {
-    public static final String MONGO_CONNECTION_URL = "mongodb+srv://snehit221:root1234@clusterdatalab.sgymx8h.mongodb.net/?retryWrites=true&w=majority";
+    public static final String MONGO_CONNECTION_URL = "mongodb_connect_url_secret";
     public static final String MONGO_DATABASE_NAME = "ReuterDb";
     public static final String MONGO_COLLECTION_NAME = "ReuterNews";
     public static final String LOCAL_MYSQL_DB_URL = "jdbc:mysql://localhost:3306/sentiment_analysis";
