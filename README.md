@@ -9,6 +9,17 @@ given files, cleaned (and transformed), and loaded into the MongoDB database nam
 ## Overview
 The **Reuters News Frequency Counter** is a Java-based Spark application that processes and analyzes Reuters news data. The application extracts and transforms textual content, calculates word frequencies, and outputs sorted word counts in descending order. It runs on a **YARN cluster** and leverages **Apache Spark** for efficient distributed processing.
 
+## GCP flow chart:
+![GCP Flow Chart](gcpDataProcFlowChart.png)
+
+
+## Create Jar File for Spark Submit:
+
+![Jar file creation](createJarFileForSparkSubmit.png)
+
+## Spark Submit:
+![Spark Submit](sparkSubmit.png)
+
 ## Features
 - Reads Reuters news data from input files.
 - Extracts text content using **regex pattern matching**.
